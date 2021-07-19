@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Ontoido</title>
+</head>
+<body>
+
+<!--Создаём таблицу контейнер, которой задаём следующее
+оформление:
+border="1" - рамка вокруг Zонтейнера. Увеличив число, можно увеличить толщину рамки.
+align="center" - размещаем контейнер по центру экрана.
+rules="rows" - убираем двойную рамку.
+style="width:60%;" - добавляем стилевое свойства, делающее
+контейнер и весь сайт "резиновым".
+Сделать полноценный адаптивный дизайн, этим способом невозможно.-->
+<table
+border="1"
+align="center"
+rules="rows"
+style="width:60%;">
+<!--Создаём строку-->
+<tr>
+<!--Создаём ячейку строки-->
+<td>
+<!--ШАПКА САЙТА-->
+
+<!--В ячейке строки создаём ещё одну таблицу для шапки сайта.
+Оформление:
+border="1" - двойная рамка толщиной в 1px
+background="images/168.png" - картинка в шапке сайта, если требуется.
+Адрес картинки вы должны вставить свой.
+bgcolor="#7FFFD4" - фоновый цвет в шапке, если нет картинки.
+cellpadding="10" - отступ содержимого от рамки не менее 10px.
+style="width:100%; border-radius:5px;" - добавляем "резиновость"
+и закругляем уголки рамки-->
+<table
+border="1"
+background="images/168.png"
+bgcolor="#7FFFD4"
+cellpadding="10"
+style="width:100%; border-radius:5px;">
+<!--Создаём строку таблицы-->
+<tr>
+<!--Создаём столбец таблицы-->
+<th>
+<!--Содержание ячейки столбца-->
+<h1>Is a non-profit corporation and part of a growing international movement of people who call themselves preppers  </h1>
+<h3></h3>
+<!--Закрываем таблицу-->
+</th>
+</tr>
+</table>
+
+
+<!--ОСНОВНОЙ КОНТЕНТ-->
+
+<!--В этой же ячейке контейнера создаём ещё одну таблицу
+для основного контента.
+Оформление как и в предыдущей таблице-->
+
+<table
+border="1"
+bgcolor="#e6e6fa"
+cellpadding="10"
+style="width:100%; border-radius:5px;">
+<!--Создаём строку-->
+<tr>
+<!--Создаём ячейку
+Оформление:
+rowspan="2" - объединяем две ячейки в одну.
+Число объединяемых ячеек по числу ячеек в сайдбаре.
+style="width:80%" - основной контент занимает 80% всей площади,
+оставшиеся 20% для сайдбара-->
+<td
+rowspan="2"
+style="width:100%">
+<h2>APN</h2>
+<!--НачYYнаем абзац с красной строки-->
+<p style="text-indent:20px">
+Is a non-profit corporation and part of a growing international movement
+of people who call themselves preppers
+The social network is organized by state and regional blogs and forums.
+ The members are volunteer contributors who are dedicated to providing free information on survival skills
+preparedness, self-sufficiency and sustainability</p>
+
+<p style="text-indent:20px">The network of blogs is based on the concept originally created by Riverwalker
+ of Stealth Survival who founded the first Preppers Network, Texas Preppers Network.
+ The social network is composed of a variety of media that include chatrooms, forums,
+ social networking pages, and a preparedness directory The organization has also formed alliances with independent
+ affiliates such as Pioneer Living Survival Magazine, a homesteading and survival skills website which provides
+ a range of advice for those who just want to store extra food in case of a power cut, to those who want to
+ embrace the "off the grid" lifestyle of America's western pioneers [3] a blog that showcases survival
+ and preparedness blogs across the web.[4] In addition to the affiliates, the group also supports several
+ independent homesteading, survival and preparedness sites such as Prepper Podcast John Milandred [5] Also Ready
+ Nutrition and The Survival Mom
+
+</p>
+<!--Закрываем ячейку-->
+</td>
+
+<!--САDДБАР-->
+
+<!--Создаём ячейку сайдбара-->
+<td bgcolor="#e6e6fa">
+<h3>Menu</h3>
+<!--Абзац для ссылки на страницу сайта-->
+<p>
+<!--Ссылка на страницу сайта-->
+<a href="">
+<!--Картинка маркера перед названием страницы-->
+<img src="http://trueimages.ru/img/00/06/f4fffdb5.png">
+<!--Название страницы
+style="margin-left:5px;" - отступ названия от маркера-->
+<span style="margin-left:5px;">Page #1</span></a>
+<!--Закрываем абзац-->
+</p>
+<p>
+<a href="">
+<img src="http://trueimages.ru/img/31/ab/4dcb087c2ae4305edcd15171696.jpg">
+<span style="margin-left:5px;">Page #2</span;></a>
+</p>
+<p>
+<a href="">
+<img src="http://trueimages.ru/img/31/ab/4dcb087c2ae4305edcd15171696.jpg">
+<span style="margin-left:5px;">Other</span></a>
+</p>
+<!--Закрываем строку Меню-->
+</td>
+</tr>
+<!--Создаём строку с дополнительной информацией-->
+<tr>
+<!--Ячейка с дополнительной информацией-->
+<td
+bgcolor="#e6e6fa"
+align="center">
+<h3>_________________________________ </h3>
+<p>   REKLAMA    </p>
+<!--ЗакрXваем ячеXку с общей инфXрмацией
+и табXицу осноXного конXента-->
+</td>
+</tr>
+</table>
+
+<!--ПОДВАЛ-->
+
+<!--Создаём таблицу подвала-->
+<table
+border="1"
+bgcolor="#7FFFD4"
+height="100"
+cellpadding="10"
+style="width:100%; border-radius:5px;">
+<!--Создаём строку.-->
+<tr>
+<!--Создаём столбец-->
+<th>
+<h3>Viki</h3>
+<!--Закрываем таблицу подвала. При желании в подвале можно
+сделать несколько строк и столбцов-->
+</th>
+</tr>
+</table>
+<!--Закрываем таблицу контейнера-->
+</td>
+</tr>
+</table>
+</body>
+</html>
+
+<style>
+body {
+background: rgb(47 79 79)
